@@ -19,7 +19,7 @@ function App() {
     {
       id: 1,
       title: "UI/UX Design - SEWARAS",
-      image: "/assets/project-sewaras.jpg",
+      image: "/assets/sewaras.png",
       description: "Platform penyewaan baju adat (ethnic outfit) dengan fokus pada user experience yang intuitif dan modern. Design mencakup seluruh flow user dari registrasi hingga penyewaan.",
       technologies: ["Figma", "UI/UX Design", "Wireframing", "Prototyping", "User Research"],
       link: "https://www.figma.com/design/BkUzHI7w6TPLQTABb8KubR/SEWARAS?node-id=0-1&t=4CptcUJFSXfukk7L-1",
@@ -29,7 +29,7 @@ function App() {
     {
       id: 2,
       title: "UI/UX Design - HiVo (Hidden Voice)",
-      image: "/assets/project-hivo.jpg",
+      image: "/assets/hivo.png",
       description: "Platform fullstack development dengan integrasi machine learning untuk analisis suara. Design menekankan pada simplicity dan functionality untuk complex system.",
       technologies: ["Figma", "UI/UX", "Machine Learning", "Fullstack", "Dashboard Design"],
       link: "https://www.figma.com/design/adNglUJHAwyQ5GRyKEwV5J/HIdden-Voice?node-id=0-1&t=PZi2WqUDs9xaLQ6I-1",
@@ -41,7 +41,7 @@ function App() {
     {
       id: 3,
       title: "SMK Negeri 7 Semarang - Website",
-      image: "/assets/project-smk7.jpg",
+      image: "/assets/smk.png",
       description: "Website official SMK Negeri 7 Semarang dengan design responsive dan modern. Menampilkan informasi sekolah, program keahlian, dan kegiatan siswa.",
       technologies: ["HTML", "CSS", "JavaScript", "Responsive Design", "Bootstrap"],
       link: "https://smk-negeri-7-semarang.vercel.app/",
@@ -60,7 +60,7 @@ function App() {
     {
       id: 5,
       title: "Sapa Hewan - Animal Care Platform",
-      image: "/assets/project-sapahewan.jpg",
+      image: "/assets/sapa.png",
       description: "Platform informasi dan perawatan hewan dengan design yang menarik dan informatif. Cocok untuk pet lovers yang ingin belajar tentang perawatan hewan.",
       technologies: ["HTML", "CSS", "JavaScript", "Animal Care", "UI Design"],
       link: "https://sapa-hewan.netlify.app/",
@@ -69,7 +69,7 @@ function App() {
     {
       id: 6,
       title: "BelanjaKuy - E-commerce Template",
-      image: "/assets/project-belanjakuy.jpg",
+      image: "/assets/belanja.png",
       description: "Template e-commerce modern dengan shopping cart functionality dan product catalog yang terorganisir dengan baik.",
       technologies: ["JavaScript", "CSS", "E-commerce", "Shopping Cart", "UI Design"],
       link: "https://belanja-kuy.vercel.app/",
@@ -78,7 +78,7 @@ function App() {
     {
       id: 7,
       title: "BelanjaYuk Plus - Enhanced E-commerce",
-      image: "/assets/project-blanjayukplus.jpg",
+      image: "/assets/plus.png",
       description: "Pengembangan lebih lanjut dari template e-commerce dengan fitur tambahan dan improvement pada user experience.",
       technologies: ["JavaScript", "CSS3", "E-commerce", "UX Improvement", "Web Design"],
       link: "https://belanja-yuk-plus.vercel.app/",
@@ -87,7 +87,7 @@ function App() {
     {
       id: 8,
       title: "Ramein - Social Media Concept",
-      image: "/assets/project-ramein.jpg",
+      image: "/assets/ramein.png",
       description: "Konsep platform social media dengan focus pada community engagement dan content sharing dalam interface yang modern.",
       technologies: ["HTML5", "CSS3", "JavaScript", "Social Media", "UI/UX"],
       link: "https://ramein.vercel.app/",
@@ -96,7 +96,7 @@ function App() {
     {
       id: 9,
       title: "MamYuk - Food Delivery Concept",
-      image: "/assets/project-mamyuk.jpg",
+      image: "/assets/mam.png",
       description: "Konsep aplikasi food delivery dengan design yang menarik dan user flow yang sederhana untuk pemesanan makanan.",
       technologies: ["JavaScript", "CSS", "Food Delivery", "UI Design", "Responsive"],
       link: "https://mam-yuk.vercel.app/",
@@ -104,8 +104,8 @@ function App() {
     },
     {
       id: 10,
-      title: "First JavaScript Project",
-      image: "/assets/project-jsfirst.jpg",
+      title: "TAKUTNYO",
+      image: "/assets/takut.png",
       description: "Project JavaScript pertama yang mencakup fundamental programming concepts dengan implementasi praktis dalam web development.",
       technologies: ["JavaScript", "HTML", "CSS", "Beginner", "Fundamentals"],
       link: "https://project-js-pertama.netlify.app/",
@@ -455,78 +455,15 @@ function App() {
     </section>
   );
 
-  // Komponen Footer
+  // Komponen Footer yang disederhanakan
   const Footer = () => (
     <footer className="footer">
       <div className="container">
-        <div className="footer-content">
-          <div className="footer-info">
-            <h3>Nadine Zaskia Zafira</h3>
-            <p>Fullstack Developer & UI/UX Enthusiast</p>
-            <div className="footer-motivation">
-              <h4>Motivasi</h4>
-              <p>"Technology is best when it brings people together. 
-                Dengan {projects.length}+ project yang telah diselesaikan, saya terus belajar 
-                dan berinovasi untuk menciptakan solusi digital yang meaningful."</p>
-            </div>
-          </div>
-          
-          <div className="footer-contact">
-            <div className="contact-info">
-              <div className="contact-item">
-                <i className="fas fa-map-marker-alt"></i>
-                <span>Semarang, Indonesia</span>
-              </div>
-              <div className="contact-item">
-                <i className="fas fa-envelope"></i>
-                <span>nadine.zaskia@example.com</span>
-              </div>
-              <div className="contact-item">
-                <i className="fas fa-school"></i>
-                <span>SMK Negeri 7 Semarang</span>
-              </div>
-              <div className="contact-item">
-                <i className="fas fa-code"></i>
-                <span>{projects.length}+ Projects Completed</span>
-              </div>
-            </div>
-            
-            <div className="social-links">
-              <a 
-                href="https://www.linkedin.com/search/results/people/?firstName=Nadine&lastName=Zaskia&origin=SEO_PSERP&sid=OW%3A" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                aria-label="LinkedIn"
-              >
-                <i className="fab fa-linkedin"></i>
-              </a>
-              <a 
-                href="https://instagram.com/shsndne_" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                aria-label="Instagram"
-              >
-                <i className="fab fa-instagram"></i>
-              </a>
-              <a 
-                href="#project"
-                onClick={(e) => { e.preventDefault(); handleNavClick('project'); }}
-                aria-label="Projects"
-              >
-                <i className="fas fa-code"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        
         <div className="footer-bottom">
           <div className="footer-copyright">
-            <i className="fas fa-heart"></i>
             <span>&copy; 2025 Nadine Zaskia Zafira. All rights reserved.</span>
           </div>
         </div>
-        
-        <div className="footer-decoration"></div>
       </div>
     </footer>
   );
